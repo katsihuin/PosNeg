@@ -11,6 +11,10 @@ function calcular() {
     {
         salida.innerHTML = "1";
     } 
+    else if(no.checked && (a < 0 && b < 0)) 
+    {
+        salida.innerHTML = "1";
+    }
     else 
     {
         salida.innerHTML = "0";

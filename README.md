@@ -12,22 +12,20 @@
 
 - Pedir numA
 - Pedir numB
-- Confirmar si algun numero es negativo
+- Confirmar si algun numero ingresado es negativo
 
 ##Proceso
 
-- si no es negativo {
-        // Y ((a < 0 && b > 0) || (a > 0 && b < 0)){
+- si no es negativo y uno de los números ingresados es negativo
+    -// (a < 0 && b > 0) ó (a > 0 && b < 0)
         - muestra valor 1
 
-- si es negativo {
-        // Y ((a < 0)  && (b < 0)){
+- si es negativo y los numeros ingresados son negativos
+    -// (a < 0) y (b < 0)
         - muestra valor 1
-        }
-    }  
-- sino {
-        - muestra valor 0
-    }   
+
+- sino es asi
+    - muestra valor 0
 
 ## Mostrar Resultados
 

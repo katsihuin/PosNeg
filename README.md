@@ -1,25 +1,33 @@
-# Objetivo80
+# PosNeg
 
-##Inicio: Calcular porcentaje de Squad
+##Inicio
 
 ##Declaración de Variables
 
-- puntosSquad
-- puntosMaximo
-- porcentajeSquad
+- numA
+- numB
+- negative
 
 ##Ingreso de Datos
 
-- Pedir la cantidad de puntos por squad
-- Pedir la cantidad puntos maximo disponibles
+- Pedir numA
+- Pedir numB
+- Confirmar si algun numero es negativo
 
 ##Proceso
 
-- Operar (100 * punto_squad) / max_puntos y guardar en porcentaje_squad
-- Si porcentaje_squad es mayor que 80
-    - Mostrar mensaje: "Muy bien Squad!
-- Si no
-    - Monstrar mensaje: "Pueden hacerlo mejor"
+- si no es negativo {
+        // Y ((a < 0 && b > 0) || (a > 0 && b < 0)){
+        - muestra valor 1
+
+- si es negativo {
+        // Y ((a < 0)  && (b < 0)){
+        - muestra valor 1
+        }
+    }  
+- sino {
+        - muestra valor 0
+    }   
 
 ## Mostrar Resultados
 

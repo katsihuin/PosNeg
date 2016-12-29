@@ -1,4 +1,4 @@
-// Codigo para calcular los puntos squad 
+// Codigo para evaluar numeros negativos
 function calcular() {
     var a = document.getElementById("numA").value;
     var b = document.getElementById("numB").value;

@@ -7,17 +7,19 @@ function calcular() {
 	if (a == "" || b == ""){
         document.getElementById("salida").innerHTML = "<div class='alert'>Ingrese valores</div>";
     } 
-    else if(si.checked && (a < 0 && b > 0) || (a > 0 && b < 0)) 
+    //Si el parametro negative es falso y uno de los valores a ó b es negativo y otro positivo
+    else if(falso.checked && (a < 0 && b > 0) || (a > 0 && b < 0)) 
     {
-        salida.innerHTML = "1";
+        salida.innerHTML = "1"; //retorna 1
     } 
-    else if(no.checked && (a < 0 && b < 0)) 
+    //Si el parametro negative es verdadero y ambos valores a y b son negativos
+    else if(verdadero.checked && (a < 0 && b < 0)) 
     {
-        salida.innerHTML = "1";
+        salida.innerHTML = "1"; //retorna 1
     }
     else 
     {
-        salida.innerHTML = "0";
+        salida.innerHTML = "0"; //sino se cumplen esas condicionales retorna 0
     }
 }   
 
